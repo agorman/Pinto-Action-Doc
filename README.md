@@ -9,7 +9,7 @@ version 0.001
 # DESCRIPTION
 
 A plugin for Pinto that adds an easy way to generate HTML documents from the
-distributions on a stack. See [Pinto::Command::doc](http://search.cpan.org/perldoc?Pinto::Command::doc) for details.
+distributions on a stack. See [App::Pinto::Command::doc](http://search.cpan.org/perldoc?App::Pinto::Command::doc) for details.
 
 # WARNING
 
@@ -20,7 +20,7 @@ This module doesn't work with remote Pinto repositories.
 
 # AUTHOR
 
-Andy Gorman <andyg@cpan.org>
+Andy Gorman <agorman@cpan.org>
 
 # COPYRIGHT AND LICENSE
 

@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Generate html docs from the dists in a stack",
-  "AUTHOR" => "Andy Gorman <andyg\@cpan.org>",
+  "AUTHOR" => "Andy Gorman <agorman\@cpan.org>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"

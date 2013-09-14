@@ -1,7 +1,7 @@
 ---
 abstract: 'Generate html docs from the dists in a stack'
 author:
-  - 'Andy Gorman <andyg@cpan.org>'
+  - 'Andy Gorman <agorman@cpan.org>'
 build_requires:
   File::DirCompare: 0
   File::Temp: 0
