@@ -48,8 +48,8 @@ sub validate_args {
     $self->usage_error('Multiple arguments are not allowed')
         if @{$args} > 1;
 
-#    $opts->{stack} = $args->[0]
-#        if $args->[0];
+    $opts->{stack} = $args->[0]
+        if $args->[0];
 
     $self->usage_error('missing required options: output')
         unless $opts->{out};
