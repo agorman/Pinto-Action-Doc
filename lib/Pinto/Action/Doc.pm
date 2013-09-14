@@ -193,4 +193,4 @@ This module doesn't work with remote Pinto repositories.
 =head1 DESCRIPTION
 
 A plugin for Pinto that adds an easy way to generate HTML documents from the
-distributions on a stack. See L<Pinto::Command::doc> for details.
+distributions on a stack. See L<App::Pinto::Command::doc> for details.
