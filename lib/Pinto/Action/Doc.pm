@@ -155,7 +155,8 @@ sub execute {
         push @unpackers, $unpacker;
         
         my $temp_dir = $unpacker->unpack;
-        push @dirs, "$temp_dir/lib" if -e "$temp_dir/lib"
+        push @dirs, "$temp_dir/lib"    if -e "$temp_dir/lib";
+        push @dirs, "$temp_dir/bin"    if -e "$temp_dir/bin";
     }
 
     my $pd = Pod::ProjectDocs->new(
